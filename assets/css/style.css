@@ -1,0 +1,71 @@
+body {
+    background-image: url('../imagens/Imagem\ Background\ Fintech.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.form-container {
+    max-width: 350px;
+    padding: 1rem;
+}
+
+.custom-bg {
+    background-color: #f0f8ff;
+    color: #000;
+    border: none;
+}
+
+.custom-bg::placeholder {
+    color: #666;
+}
+
+.form-floating > label {
+    color: #000;
+}
+
+.form-control {
+    color: #000000 !important;
+}
+
+.custom-bg.form-control::placeholder {
+    color: #666; 
+}
+
+.btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    width: 130px;
+}
+.btn:hover {
+    background-color: #999999;
+}
+
+.custom-checkbox {
+    width: 18px;
+    height: 18px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border: none;
+}
+
+.custom-checkbox:checked {
+    background-color: #000000;
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #8C8C8C;
+}
